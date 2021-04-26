@@ -1,0 +1,5 @@
+﻿answer1, answer2 = input().split()
+answer1 = int(answer1)
+answer2 = int(answer2)
+print(answer1)
+print(answer2)
