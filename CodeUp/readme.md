@@ -32,6 +32,21 @@ if i != 0 조건 빼먹지 말기 (예외처리 중요)
     print("%o" %temp)
     
   특정 진법으로 입력 받을 때는 같이 입력 받고 변환해주면 된다 
+  
+  3) answer = ord(input())
+     print(answer)
+     
+  영문자를 입력 받아 10진수로 변환 할때는 ord
+  
+  4) answer = int(input())
+     print(chr(answer))
+   10진수 입력받아 영문자로 변환할때는 chr
+   
+  # decimal point
+  print(format(float(answer),".2f"))
+  formating ".2f" 
+  반올림하여 소수 둘째짜리 까지 출력 
+   
 
 
 
