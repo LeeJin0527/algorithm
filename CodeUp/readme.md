@@ -42,7 +42,7 @@ if i != 0 조건 빼먹지 말기 (예외처리 중요)
      print(chr(answer))
    10진수 입력받아 영문자로 변환할때는 chr
    
-  # decimal point
+  # 4. Decimal point
   print(format(float(answer),".2f"))
   formating ".2f" 
   반올림하여 소수 둘째짜리 까지 출력 
