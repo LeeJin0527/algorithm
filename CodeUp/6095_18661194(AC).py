@@ -1,4 +1,4 @@
-﻿answer1 = int(input())
+answer1 = int(input())
 
 d = [[0 for j in range(20)] for i in range(20)]
 for i in range(answer1):
