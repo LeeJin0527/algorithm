@@ -47,9 +47,9 @@ if i != 0 조건 빼먹지 말기 (예외처리 중요)
   # 4. Decimal point
   print(format(float(answer),".2f"))
   
-  formating ".2f" 
+  - formating ".2f" 
   
-  - 반올림하여 소수 둘째짜리 까지 출력 
+  - 반올림하여 소수 둘째자리 까지 출력 
    
 
 
