@@ -1,2 +1,2 @@
-﻿answer = int(input())
+answer = int(input())
 print(chr(answer))
