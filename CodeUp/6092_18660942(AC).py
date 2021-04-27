@@ -1,4 +1,4 @@
-﻿answer1 = int(input())
+answer1 = int(input())
 answer2 = input().split()
 
 for i in range(answer1):
