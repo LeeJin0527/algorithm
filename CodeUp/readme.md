@@ -13,15 +13,15 @@ print('S','E','P', sep='@')
 S , E , P라는 문자열 사이에 @가 끼워넣어져 출력된다. 즉, 구분자는 @가 된다.
 
 # 2. if 조건
-if i % 2 == 0 and i !=0:
-        print(' ', end ='')
+if i % 2 == 0 and i != 0:
+        print(' ', end = '')
     
-    print(answer[i], end='')
+    print(answer[i], end= '')
 if i != 0 조건 빼먹지 말기 (예외처리 중요)
 
 
 # 3. conversion
- 1) answer = int(input())
+ 1) answer = int( input())
 
     print('%x' %answer)
 
@@ -45,7 +45,7 @@ if i != 0 조건 빼먹지 말기 (예외처리 중요)
    - 10진수 입력받아 영문자로 변환할때는 chr
    
   # 4. Decimal point
-  print(format(float(answer),".2f"))
+  print(format(float(answer), ".2f"))
   
   - formating ".2f" 
   
