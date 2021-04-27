@@ -20,6 +20,14 @@ if i % 2 == 0 and i !=0:
 if i != 0 조건 빼먹지 말기 (예외처리 중요)
 
 
+# 3. conversion
+answer = int(input())
+
+print('%x' %answer)
+
+10진수를 16진수로 바꿀때는 뒤에 %연산자 써주는데 쉼표는 안쓴다!
+
+
 
 
 
