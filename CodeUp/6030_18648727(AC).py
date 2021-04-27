@@ -1,2 +1,2 @@
-﻿answer = ord(input())
+answer = ord(input())
 print(answer)
