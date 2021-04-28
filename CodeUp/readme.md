@@ -64,7 +64,7 @@ if i != 0 조건 빼먹지 말기 (예외처리 중요)
 # 6.이중 for문
 
     result = [x*y for x in range(2,10)
-    ...               for y in range(1,10)]
+                  for y in range(1,10)]
 
     d = [[0 for j in range(20)] for i in range(20)]
 
