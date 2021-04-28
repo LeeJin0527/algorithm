@@ -55,11 +55,18 @@ if i != 0 조건 빼먹지 말기 (예외처리 중요)
   
   - formating ".2f" 
   
-  - 반올림하여 소수 둘째자리 까지 출력 
-   
+  - 반올림하여 소수 둘째자리 까지 출력
+  - 
+ # 5 . 인덱스 카운트 
+ temp[answer2[i]] += 1
+ 
 
+# 6.이중 for문
 
+result = [x*y for x in range(2,10)
+...               for y in range(1,10)]
 
+d = [[0 for j in range(20)] for i in range(20)]
 
 
 
