@@ -1,12 +1,8 @@
-input_data = input()
-row = int(input_data[1])
-column = int(ord(input_data[0])) - int(ord(input_data[1])) +1
-steps = [(-2, -1), (-1, -2), (1, -2), (2, -1), (2, 1), (1, 2), (-1, 2), (-2, 1)]
-result = 0
-for step in steps:
-	next_row = row + step[0]
-	next_column = column + step[1]
+def recursive_function(i):
+	if i == 10:
+		return
+	print(i, '번째 재귀 함수 에서 ', i+1, ' 번째 재귀 함수를 호출합니다.')
+	recursive_function(i+1)
+	print(i, '번째 재귀함수를 종료합니다')
 
-	if next_row >= 1 and next_row <= 8 and next_column >=1 and next_column <=8:
-		result += 1
-print(result)
+recursive_function(1)

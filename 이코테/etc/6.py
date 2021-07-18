@@ -1,10 +1,10 @@
-array = [5, 7, 9, 0, 3, 1, 6, 2, 4, 8]
+graph = [[] for _ in range(3)]
 
-def quick_sort(array):
-	if len(array) <= 1:
-		return array
+graph[0].append((1, 7))
+graph[0].append((2, 5))
 
-	pivot = array[0]
-	tail = array[1:]
+graph[1].append((0, 7))
 
-	left_side 
+graph[2].append((0, 5))
+
+print(graph)

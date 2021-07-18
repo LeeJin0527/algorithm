@@ -1,9 +1,13 @@
-array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+def factorial_recursive(n):
+	if n<= 1:
+		return 1
+	return n * factorial_recursive(n-1)
 
-for i in range(len(array)):
-	min_index = i
-	for j in range(i+1, len(array)):
-		if array[min_index] > array[j]:
-			min_index = j
-	array[min_index], array[i] = array[i], array[min_index]
-print(array)
+def factorial_iterative(n):
+	result = 1
+	for i in range(1, n+1):
+		result *= i
+	return result
+
+print('반복적으로 구현', factorial_iterative(5))
+print('재귀적으로 구현', factorial_recursive(5))
