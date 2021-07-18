@@ -10,7 +10,10 @@ tmp.sort(reverse = True)
 # print(tmp)
 
 for i in range(k):
-	goal[i], tmp[i]  = tmp[i], goal [i]
+	if goal[i] < tmp[i]:
+		goal[i], tmp[i]  = tmp[i], goal [i]
+	else:
+		break
 
 # print(goal)
 # print(tmp)
