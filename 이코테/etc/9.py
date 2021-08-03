@@ -1,8 +1,12 @@
-array = [7, 5, 9, 0, 3, 1, 6, 2, 9, 1, 4, 8, 0, 5, 2]
-count = [0] * (max(array) +1)
+import heapq
+def heapsort(iterable):
+	h =[]
+	result = []
+	for value in iterable:
+		heapq.heappush(h, value)
+	for i in range(len(h)):
+		result.append(heapq.heappop(h))
+	return result
 
-for i in range(len(array)):
-	count[array[i]] += 1
-for i in range(len(count)):
-	for j in range(count[i]):
-		print(i, end = ' ')
+result = heapsort([1, 3, 5, 7, 9, 2, 4, 6 ,8, 0])
+print(result)

@@ -1,10 +1,6 @@
-graph = [[] for _ in range(3)]
+import sys
+data =sys.stdin.readline().rstrip()
+print(data)
 
-graph[0].append((1, 7))
-graph[0].append((2, 5))
-
-graph[1].append((0, 7))
-
-graph[2].append((0, 5))
-
-print(graph)
+answer = 7
+print(f"정답은 {answer} 입니다.")

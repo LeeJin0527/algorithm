@@ -1,13 +1,7 @@
-def factorial_recursive(n):
-	if n<= 1:
-		return 1
-	return n * factorial_recursive(n-1)
-
-def factorial_iterative(n):
-	result = 1
-	for i in range(1, n+1):
-		result *= i
-	return result
-
-print('반복적으로 구현', factorial_iterative(5))
-print('재귀적으로 구현', factorial_recursive(5))
+scores = [90, 85, 77, 65, 97]
+cheating_list = {2, 4}
+for i in range(5):
+	if i+1 in cheating_list:
+		continue
+	if scores[i] >= 80:
+		print(i+1, "번 학생은 합격입니다.")

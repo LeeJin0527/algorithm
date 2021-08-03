@@ -1,14 +1,12 @@
-array = [5, 7, 9, 0, 3, 1, 6, 2, 4, 8]
+from itertools import permutations
+from itertools import combinations
+from itertools import product
+data = ['A','B', 'C']
+result = list(permutations(data, 3))
+print(result)
 
-def quick_sort(array):
-	if len(array) <= 1:
-		return array
+result = list(combinations(data, 2))
+print(result)
 
-	pivot = array[0]
-	tail = array[1:]
-
-	left_side = [x for x in tail if x <= pivot]
-	right_side = [x for x in tail if x > pivot]
-
-	return quick_sort(left_side) +[pivot]+ quick_sort(right_side)
-print(quick_sort(array))
+result = list(product(data, repeat=2))
+print(result)

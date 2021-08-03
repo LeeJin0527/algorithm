@@ -1,8 +1,13 @@
-array = [('바나나', 2), ('사과', 5), ('키위', 6)]
+import heapq
 
-def setting(data):
-	return data[1]
+def heapsort(iterable):
+	h = []
+	result = []
+	for value in iterable:
+		heapq.heappush(h, -value)
+	for i in range(len(h)):
+		result.append(-heapq.heappop(h))
+	return result
 
-result = sorted(array, key = setting)
-
+result = heapsort([1, 3, 5, 7, 9, 2, 4, 6, 8, 0])
 print(result)

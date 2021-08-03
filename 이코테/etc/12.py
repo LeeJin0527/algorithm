@@ -1,13 +1,11 @@
-n = int(input())
+from bisect import bisect_left, bisect_right
 
-data = []
-for i in range(n):
-	data.append(input().split())
+def count_by_range(a, left_value, right_value):
+	right_index = bisect_right(a, right_value)
+	left_index = bisect_left(a, left_value)
+	return right_index - left_index
 
-def setting(data):
-	return int(data[1])
+a = [1, 2, 3, 3, 3, 3, 4, 4 , 8, 9]
 
-result = sorted(data, key = setting)
-for i in result :
-	print(i[0], end = ' ')
-
+print(count_by_range(a, 4, 4))
+print(count_by_range(a, -1, 3))

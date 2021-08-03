@@ -1,16 +1,15 @@
-from collections import deque
+data = dict()
+data['사과'] = 'Apple'
+data['바나나'] = 'Banana'
+data['코코넛'] = 'Coconut'
 
-# 큐 구현을 위해 deque 라이브러리 사용
-queue = deque()
-queue.append(5)
-queue.append(6)
-queue.append(4)
-queue.append(2)
-queue.popleft()
-queue.append(1)
-queue.popleft()
+if '사과' in data:
+	print("'사과'를 키로 가지는 데이터가 존재합니다.")
 
-print(queue)
-queue.reverse()
-print(queue)
-print(list(queue))
+key_list = data.keys()
+value_list = data.values()
+print(key_list)
+print(value_list)
+
+for key in key_list:
+	print(data[key])

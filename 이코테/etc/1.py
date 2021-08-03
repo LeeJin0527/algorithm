@@ -1,8 +1,5 @@
-stack =[]
-stack.append(4)
-stack.pop()
-stack.append(5)
-stack.append(6)
+a = [1, 2, 3, 4, 5, 5, 5]
+remove_set = {3, 5}
 
-print(stack)
-print(stack[::-1])
+result = [i for i in a if i not in remove_set]
+print(result)
