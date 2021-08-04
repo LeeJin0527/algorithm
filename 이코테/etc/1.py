@@ -1,5 +1,8 @@
-a = [1, 2, 3, 4, 5, 5, 5]
-remove_set = {3, 5}
+def is_prime_number(x):
+	for i in range(2, x):
+		if x % i == 0 :
+			return False
+	return True
 
-result = [i for i in a if i not in remove_set]
-print(result)
+print(is_prime_number(4))
+print(is_prime_number(7))

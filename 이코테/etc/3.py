@@ -1,23 +1,15 @@
-# data = set([1, 1, 2, 3, 4, 4, 5])
-# print(data)
-#
-# data = {1, 1, 2, 3, 4, 4, 5}
-# print(data)
-#
-# a = set([1, 2, 3, 4, 5])
-# b = set([3, 4, 5, 6, 7])
-#
-# print(a | b)
-# print(a & b)
-# print(a - b)
-data = set([1, 2, 3])
-print(data)
+import math
+n = 1000
+array = [True for i in range(n + 1)]
 
-data.add(4)
-print(data)
-data.update({9, 6})
-print(data)
+for i in range(2, int(math.sqrt(n)) + 1):
+	if array[i] == True:
+		j = 2
+		while i * j <= n:
+			array[i * j] = False
+			j += 1
 
-data.remove(3)
-print(data)
+for i in range(2, n+1):
+	if array[i]:
+		print(i, end =' ')
 

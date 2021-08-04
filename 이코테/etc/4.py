@@ -1,7 +1,17 @@
-scores = [90, 85, 77, 65, 97]
-cheating_list = {2, 4}
-for i in range(5):
-	if i+1 in cheating_list:
-		continue
-	if scores[i] >= 80:
-		print(i+1, "번 학생은 합격입니다.")
+n = 5
+m = 5
+data = [1, 2, 3, 2, 5]
+
+count = 0
+interval_sum = 0
+end = 0
+
+for start in range(n):
+	while interval_sum < m and end < n:
+		interval_sum += data[end]
+		end += 1
+	if interval_sum == m :
+		count += 1
+	interval_sum -= data[start]
+
+print(count)
