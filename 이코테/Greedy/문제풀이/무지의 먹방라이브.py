@@ -36,5 +36,5 @@ def solution(food_times, k):
 		left -= 1
 
 
-ㅁ
+
 solution([3, 1, 2], 5)
