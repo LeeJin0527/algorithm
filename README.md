@@ -90,3 +90,9 @@ numpy update하기
   reference :https://covenant.tistory.com/141
   # 인덱스 찾기 
   target = array.index(min(tmp)) 
+  
+  # 더 빠른 입력
+
+    import sys
+    input_data = sys.stdin.readline().rstrip()
+    print(input_data)
