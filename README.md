@@ -88,3 +88,5 @@ numpy update하기
                   
                   
   reference :https://covenant.tistory.com/141
+  # 인덱스 찾기 
+  target = array.index(min(tmp)) 
