@@ -96,3 +96,7 @@ numpy update하기
     import sys
     input_data = sys.stdin.readline().rstrip()
     print(input_data)
+    
+    import sys
+    input = sys.stdin.readline
+    INF = int(1e9)
