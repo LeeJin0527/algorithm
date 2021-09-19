@@ -106,3 +106,7 @@ numpy update하기
                 sum += v
                 accu += sum
            print(accu)
+           
+# sort 조건
+           line = sorted(line, key = lambda x : (x[1], x[0]) )
+           #1순위, 2순위 
