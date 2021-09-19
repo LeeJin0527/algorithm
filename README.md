@@ -100,3 +100,9 @@ numpy update하기
     import sys
     input = sys.stdin.readline
     INF = int(1e9)
+
+ # 누적합 
+           for i, v in enumerate(list):
+                sum += v
+                accu += sum
+           print(accu)
