@@ -114,4 +114,5 @@ numpy update하기
 # 서로 다른 N개의 자연수의 합이 S라고 한다. S를 알 때, 자연수 N의 최댓값은 얼마일까?
 
        1부터 더해서 sum 이 s 보다 커지면 그에 맞는 수를 하나 빼는 방식으로 n 값을 구할 수 있다 
-       
+# 리스트 초기화 
+       answer = [[0 for _ in range(tmp)] for row in range(t)]
