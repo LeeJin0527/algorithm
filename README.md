@@ -116,3 +116,7 @@ numpy update하기
        1부터 더해서 sum 이 s 보다 커지면 그에 맞는 수를 하나 빼는 방식으로 n 값을 구할 수 있다 
 # 리스트 초기화 
        answer = [[0 for _ in range(tmp)] for row in range(t)]
+       
+# 그룹 함수 
+# 방문하지 않고 n-1번째 수와 같지 않으면 그룹함수를 어기는 조건이 됨
+# BOJ 1316
