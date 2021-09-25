@@ -121,3 +121,6 @@ numpy update하기
 # 방문하지 않고 n-1번째 수와 같지 않으면 그룹함수를 어기는 조건이 됨
 # BOJ 1316
 [그룹체커](https://github.com/LeeJin0527/Algorithm/blob/master/BaekJoon/%EB%AC%B8%EC%9E%90%EC%97%B4/1316%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%AE%E1%86%B8%20%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A5%20%E1%84%8E%E1%85%A6%E1%84%8F%E1%85%A5.py)
+
+# 펠린드롬 
+펠린드롬은 문자열의 길이가 1일 때도 고려해야함 
