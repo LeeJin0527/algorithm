@@ -125,7 +125,7 @@ numpy update하기
 # 펠린드롬 
 펠린드롬은 문자열의 길이가 1일 때도 고려해야함 
 
-#input() 으로 초기화 하기
-n, m = map(int, input().split())
-answer = [list(map(int,input())) for _ in range(n)]
-print(answer)
+# input() 으로 초기화 하기
+        n, m = map(int, input().split())
+        answer = [list(map(int,input())) for _ in range(n)]
+        print(answer)
