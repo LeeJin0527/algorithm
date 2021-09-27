@@ -129,3 +129,5 @@ numpy update하기
         n, m = map(int, input().split())
         answer = [list(map(int,input())) for _ in range(n)]
         print(answer)
+        
+ # 가중치 있는 것은 꼭 BFS 이용해야함 
