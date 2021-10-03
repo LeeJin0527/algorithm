@@ -3,23 +3,23 @@ from collections import deque
 import copy
 import time
 n, m = map(int, input().split())
-answer = 0
+
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 graph = []
 virusList =[]
 mediList = []
 
-global cnt
+
 
 for i in range(n):
-	tmp = (list(map(int, input().split())))
+	graph.append(list(map(int, input().split())))
+for i in range(n):
 	for j in range(m):
-		if tmp[j] == 2:
-			virusList.append([i, j])
-		elif tmp[j] == 0:
-			mediList.append([i, j])
-	graph.append(tmp)
+		if graph[i][j] == 2:
+			virusList.append((i, j))
+		elif graph[i][j] == 0:
+			mediList.append((i, j))
 
 def bfs(x, y):
 	queue = deque()
@@ -38,7 +38,7 @@ def bfs(x, y):
 				queue.append((nx, ny))
 	return tmp
 # start = time.time()
-
+answer = 0
 for i in combinations(mediList, 3):
 	tmp = copy.deepcopy(graph)
 	for x, y in i:
@@ -52,5 +52,5 @@ for i in combinations(mediList, 3):
 		cnt += i.count(0)
 	if cnt > answer:
 		answer = cnt
-		# print(cnt)
+	# print(cnt)
 print(answer)
