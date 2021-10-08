@@ -11,4 +11,4 @@ def solution(citations):
 	answer = tmp
 	return answer
 
-print(solution([9, 2, 4, 5,32, 33, 55, 5]))
+
