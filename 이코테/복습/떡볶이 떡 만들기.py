@@ -10,10 +10,11 @@ def binary_search(array, target, start, end):
 			if i > array[mid]:
 				total += (i - array[mid])
 		if total < target:
-			end = mid - 1
+			end = mid -1
 		else:
 			result = mid
 			start = mid + 1
 	return result
+
 result = binary_search(lst, m, 0, n-1)
 print(lst[result])
