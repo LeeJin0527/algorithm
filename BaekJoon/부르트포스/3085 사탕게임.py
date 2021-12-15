@@ -25,7 +25,7 @@ def serial_cnt(lst):
 		cnt = max(cnt, rowCnt, colCnt)
 	return cnt
 
-	return cnt
+
 
 dx = [1, 0]
 dy = [0, -1]
