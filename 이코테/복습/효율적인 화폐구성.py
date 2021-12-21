@@ -1,14 +1,14 @@
 n, m = map(int, input().split())
-lst = []
+coins = []
 for i in range(n):
-	lst.append(int(input()))
+	coins.append(int(input()))
 d = [10001] * (m+1)
 d[0] = 0
 for i in range(n):
-	for j in range(lst[i], m+1):
-		if d[j - lst[i]] != 10001:
-			d[j] = min(d[j-lst[i]] +1 , d[j])
+	for j in range(coins[i], m+1):
+		if d[j - coins[i]] != 10001:
+			d[j] = min(d[j], d [ j - coins[i]]) + 1
 if d[m] == 10001:
-	print('-1')
+	print(-1)
 else:
 	print(d[m])
