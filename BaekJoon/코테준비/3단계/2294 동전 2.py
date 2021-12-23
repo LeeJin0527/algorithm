@@ -16,4 +16,4 @@ for i in lst:
 if d[k] == 10001:
 	print(-1)
 	exit()
-print(d[k])
+print(d[k]) 
