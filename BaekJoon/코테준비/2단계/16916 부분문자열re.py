@@ -28,4 +28,4 @@ pi = [0 for x in range(len(pattern))]
 if KMP(s, pattern):
 	print('1')
 else:
-	print('0')
+	print('0') 
