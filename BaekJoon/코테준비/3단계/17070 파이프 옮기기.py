@@ -16,4 +16,4 @@ def dp():
 				continue
 			test[1][i][j] = test[0][i-1][j-1]+ test[1][i-1][j-1] + test[2][i-1][j-1]
 	return test[0][n-1][n-1] + test[1][n-1][n-1] + test[2][n-1][n-1]
-print(dp())
+print(dp()) 
