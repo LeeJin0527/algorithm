@@ -29,4 +29,4 @@ for e in egdes:
 		union_parent(parent, a, b)
 		result += cost
 		# last = cost
-print(result)
+print(result) 
