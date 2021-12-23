@@ -46,5 +46,5 @@ for i in range(n):
 				answer = max(answer, serial_cnt(lst))
 				lst[i][j], lst[nx][ny] = lst[nx][ny], lst[i][j]
 print(answer)
-
+ 
 
