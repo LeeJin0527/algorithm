@@ -38,4 +38,4 @@ for i, v in enumerate(lst):
 if stk:
 	print('0')
 else:
-	print(answer)
+	print(answer) 
