@@ -31,6 +31,6 @@ for i in range(n):
 visited.sort()
 
 print(cnt)
-for i in visited:
+for i in visited: 
 	print(i)
 
