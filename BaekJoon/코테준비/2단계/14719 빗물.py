@@ -11,3 +11,4 @@ for i in range(1, len(lst)-1):
 		answer += block - lst[i]
 print(answer)
 
+ 
