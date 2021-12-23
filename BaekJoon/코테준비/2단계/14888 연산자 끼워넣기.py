@@ -18,4 +18,4 @@ def dfs(v, result, add, sub, mul, div):
 			dfs(v+1, int(result/lst[v]), add, sub, mul, div-1)
 dfs(1, lst[0], add, sub, mul, div)
 print(maxResult)
-print(minResult)
+print(minResult) 
