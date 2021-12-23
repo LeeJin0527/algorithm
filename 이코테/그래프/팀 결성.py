@@ -30,3 +30,4 @@ for i in range(m):
 		else:
 			print('NO')
 
+ 
