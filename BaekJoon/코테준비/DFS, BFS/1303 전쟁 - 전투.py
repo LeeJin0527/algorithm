@@ -49,3 +49,4 @@ for i in WList:
 for i in BList:
 	BSum += i**2
 print(WSum, BSum)
+
