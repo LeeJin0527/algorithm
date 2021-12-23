@@ -41,4 +41,4 @@ for i in range(len(lst)):
 			answer[0] = lst[i]
 			cnt += 1
 print(cnt)
-
+ 
