@@ -14,4 +14,4 @@ for start in range(n):
 		count += 1
 	interval_sum -= data[start]
 
-print(count)
+print(count) 
