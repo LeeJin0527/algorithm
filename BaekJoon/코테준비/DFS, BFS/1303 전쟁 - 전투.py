@@ -1,3 +1,44 @@
+## code refactoring
+## 중복 코드 제거 
+n, m = map(int, input().split())
+graph = []
+for i in range(m):
+	graph.append(list(input()))
+
+def dfs(x, y, color):
+	global cnt
+	if x < 0 or y < 0 or x >= m or y >= n:
+		return False
+	if graph[x][y] == color:
+		graph[x][y] = 1
+		dfs(x-1, y, color)
+		dfs(x+1, y, color)
+		dfs(x, y-1, color)
+		dfs(x, y+1, color)
+		cnt += 1
+		return True
+	return False
+WList = []
+BList = []
+cnt = 0
+color = {'W', 'B'}
+for i in range(n):
+	for j in range(m):
+		cnt = 0
+		if dfs(j, i, 'W') == True :
+			WList.append(cnt)
+		if dfs(j, i, 'B') == True :
+			BList.append(cnt)
+WSum = 0
+BSum = 0
+
+for i in WList:
+	WSum += i**2
+for i in BList:
+	BSum += i**2
+print(WSum, BSum)
+
+## 기존 코드 
 n, m = map(int, input().split())
 graph = []
 for i in range(m):
