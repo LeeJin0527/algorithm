@@ -10,4 +10,4 @@ answer = sorted(answer, key = lambda x : x[0])
 for i in answer:
 	for j in i:
 		print(j, end = ' ')
-	print()
+	print() 
