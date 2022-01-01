@@ -22,4 +22,4 @@ for i in answer:
 		print(k)
 		exit()
 	k+=1
-print(k)
+print(k) 
