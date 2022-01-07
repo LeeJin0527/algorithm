@@ -18,4 +18,4 @@ def dfs(num, cnt):
 			dfs(10 * num+i, cnt+1)
 
 for num in [2, 3, 5, 7]:
-	dfs(num, 1)
+	dfs(num, 1) 
