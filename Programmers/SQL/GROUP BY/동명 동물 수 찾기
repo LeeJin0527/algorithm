@@ -1,0 +1,1 @@
+SELECT NAME, count(NAME) as cnt from ANIMAL_INS where NAME is not null group by NAME having cnt >= 2 order by name;
