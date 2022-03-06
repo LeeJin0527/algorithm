@@ -1,28 +1,20 @@
 n = int(input())
-m = int(input())
-graph = [[] for _ in range(n+1)]
-
 visited = [False] * (n+1)
-for i in range(m):
-	x, y = map(int, input().split())
-	graph[x].append(y)
-	graph[y].append(x)
+graph = [[] * (n+1) for _ in range(n+1)]
+k = int(input())
+for _ in range(k):
+	a, b = map(int, input().split())
+	graph[a].append(b)
+	graph[b].append(a)
+for i in graph:
+	i.sort()
+def dfs(x):
 
-for i in range(n):
-	graph[i].sort()
-
-
-cnt = 0
-def dfs(graph, v, visited):
-	global cnt
-
-	visited[v] = True
-	for i in graph[v]:
-
+	visited[x] = True
+	for i in graph[x]:
 		if not visited[i]:
-			dfs(graph, i, visited)
-			cnt += 1
+			visited[i] = True
+			dfs(i)
 
-
-dfs(graph, 1, visited)
-print(cnt)
+dfs(1)
+print(visited.count(1)-1)
