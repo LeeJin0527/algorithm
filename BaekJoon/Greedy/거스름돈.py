@@ -1,9 +1,8 @@
-n = int(input())
-left = 1000 - n
-coins = [500, 100, 50, 10, 5, 1]
+coins = [10, 50, 100, 500]
+coins.sort(reverse = True)
+n = 1260
 cnt = 0
-
-for coin in coins:
-	cnt += left // coin
-	left = left % coin
+for i in coins:
+	cnt += n // i
+	n = n % i
 print(cnt)
