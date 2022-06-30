@@ -8,5 +8,5 @@
 6. 22.6.26 / [문자열폭발](https://www.acmicpc.net/problem/9935) / 문자열, 스택 , del / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/9935%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%8F%AD%EB%B0%9C.py)
 7. 22.6.27 / [HTML](https://www.acmicpc.net/problem/6581) / 구현, 입력 , 개행문자 처리 / [코드](https://github.com/LeeJin0527/algorithm/tree/master/coding-test)
 8. 22.6.29 / [문자열 복사 ](https://www.acmicpc.net/problem/2195) / find, 반복문 / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/2195%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%B3%B5%EC%82%AC.py)
-9. 22. 6. 30 / [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) / DP / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/11660%20%EA%B5%AC%EA%B0%84%20%ED%95%A9%20%EA%B5%AC%ED%95%98%EA%B8%B0%205.py)
+9. 22.6.30 / [구간 합 구하기 5](https://www.acmicpc.net/problem/11660) / DP / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/11660%20%EA%B5%AC%EA%B0%84%20%ED%95%A9%20%EA%B5%AC%ED%95%98%EA%B8%B0%205.py)
 
