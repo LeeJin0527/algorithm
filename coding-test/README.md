@@ -12,5 +12,5 @@
 10. 22.6.30 / [행렬제곱](https://www.acmicpc.net/problem/10830) / 재귀, 거듭 제곱, 행렬 곱  / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/10830%20%ED%96%89%EB%A0%AC%EC%A0%9C%EA%B3%B1.py)
 11. 22.6.30 / [피보나치 수 6](https://www.acmicpc.net/problem/11444) / 재귀, 거듭 제곱, 행렬 곱 / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/11444%20%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98%206.py)
 12. 22.6.30 / [후위 표기식](https://www.acmicpc.net/problem/1918)/ stack , while , 우선 순위 연산자 / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/1918%20%ED%9B%84%EC%9C%84%ED%91%9C%EA%B8%B0%EC%8B%9D.py)
-13. 22.6.30 / [조합](https://www.acmicpc.net/problem/2407) / math/ [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/2407%20%EC%A1%B0%ED%95%A9.py)
+13. 22.6.30 / [조합](https://www.acmicpc.net/problem/2407) / math / [코드](https://github.com/LeeJin0527/algorithm/blob/master/coding-test/2407%20%EC%A1%B0%ED%95%A9.py)
  
